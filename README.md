@@ -1,3 +1,3 @@
 #
 
-https://subhan-portfolio-07.netlify.app/
+https://idyllic-gumdrop-eea2c2.netlify.app/
