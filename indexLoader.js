@@ -1,3 +1,3 @@
 setTimeout(()=>{
 window.location.href = './web.html'
-},4000)
+},6000)
