@@ -45,3 +45,10 @@ if ("serviceWorker" in navigator) {
     swReg.showNotification('MY portfolio Website' , options)
   })
 }
+
+
+function seemore(){
+  setTimeout(() => {
+    window.location.href = "explore projects/index.html"
+  });
+}
