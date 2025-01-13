@@ -62,12 +62,17 @@ document.addEventListener('scroll' , ()=>{
 
   let nav = document.getElementById("nav");
   let logo = document.querySelector(".logo");
+let jlva = document.querySelector(".teenlines");
+
+
 
   if (window.scrollY > 85) {
     nav.classList.add("navjs");
-     logo.style.height = "50px"
+     logo.style.height = "50px";
+     jlva.classList.add("jlva");
   }else{
     nav.classList.remove("navjs")
       logo.style.height = "80px"
+      jlva.classList.remove("jlva")
   }
 })

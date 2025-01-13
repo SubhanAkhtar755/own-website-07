@@ -361,11 +361,30 @@ form .btn.btn2:hover {
 }
 /* ---------------Css for small screen-------------- */
 @media only screen and (max-width: 600px) {
+
+  .navjs {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    background: #080404;
+    border: none !important;
+    z-index: 11;
+    height: 60px;
+    border-radius: 15px;
+    width: 365px;
+    
+  }
+
+
+
+  
   nav .fas {
    z-index: 1;
     position: absolute;
     left: 320px;
-    top: 40px;
+    top: 35px;
   }
   .btn4{
     width: 160px;
@@ -375,14 +394,14 @@ form .btn.btn2:hover {
     width: 160px;
     padding: 12px;
     position: absolute;
-    left: 200px;
+    left: 250px;
     font-size: smaller;
   }
   .logo1{
     z-index: 1;
     position: absolute;
     top: 0px;
-    right:55px ;
+    right:25px ;
   }
   .front img {
     z-index: 1;
@@ -452,4 +471,13 @@ form .btn.btn2:hover {
   .copy-right {
     font-size: 10px;
   }
+  .jlva{
+    position: absolute !important;
+    left: 320px !important;
+    top: 20px !important;
+   }
+   .navjs:hover{
+    box-shadow: 2px 2px 30px rgb(226, 9, 9);
+  }
+  
 }
