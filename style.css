@@ -30,6 +30,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: fixed;
 }
 .logo {
   width: 340px;
