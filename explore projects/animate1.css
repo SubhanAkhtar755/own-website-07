@@ -60,3 +60,8 @@ body {
 		background-position: 0% 50%;
 	}
 }
+@media (max-width: 600px) {
+	.header {
+		height: 40vh;
+	}
+  }
