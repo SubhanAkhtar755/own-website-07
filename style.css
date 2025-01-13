@@ -27,14 +27,31 @@ body {
 
 nav {
   display: flex;
-  align-items: center;
+  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.navjs {
+  display: flex;
+  align-items:center;
   justify-content: space-between;
   flex-wrap: wrap;
   position: fixed;
-  color: antiquewhite;
+  background: #080404;
+  border: 1px solid rgb(28, 4, 243);
+  z-index: 11;
+  height: 60px;
+  border-radius: 15px;
+  width: 95%;
+}
+.navjs:hover{
+  box-shadow: 2px 2px 30px white;
 }
 .logo {
   width: 340px;
+  height: 80px;
+  margin-left: 5px;
 }
 
 nav ul li {

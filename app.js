@@ -52,3 +52,22 @@ function seemore(){
     window.location.href = "explore projects/index.html"
   });
 }
+
+
+
+
+
+
+document.addEventListener('scroll' , ()=>{
+
+  let nav = document.getElementById("nav");
+  let logo = document.querySelector(".logo");
+
+  if (window.scrollY > 85) {
+    nav.classList.add("navjs");
+     logo.style.height = "50px"
+  }else{
+    nav.classList.remove("navjs")
+      logo.style.height = "80px"
+  }
+})
