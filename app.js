@@ -64,8 +64,6 @@ document.addEventListener('scroll' , ()=>{
   let logo = document.querySelector(".logo");
 let jlva = document.querySelector(".teenlines");
 
-
-
   if (window.scrollY > 85) {
     nav.classList.add("navjs");
      logo.style.height = "50px";
