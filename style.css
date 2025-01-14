@@ -359,6 +359,10 @@ form .btn.btn2:hover {
  
   box-shadow:2px 2px 115px white;
 }
+.editbtn{
+width: 900px;
+text-align: center
+};
 /* ---------------Css for small screen-------------- */
 @media only screen and (max-width: 600px) {
 
