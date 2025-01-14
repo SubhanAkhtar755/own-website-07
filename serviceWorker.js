@@ -32,7 +32,16 @@ const assets = [
   "/images/work-1.png",
   "/images/work-2.png",
   "/images/work-3.png",
-
+"/project images/999.gif",
+"/project images/888.gif",
+"/project images/777.gif",
+"/project images/666.gif",
+"/project images/555.jpeg",
+"/project images/444.webp",
+"/project images/101.gif",
+"/project images/102.gif",
+"/project images/104.gif",
+"/project images/105.gif",
 
 ]
 
