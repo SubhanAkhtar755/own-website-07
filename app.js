@@ -74,3 +74,14 @@ let jlva = document.querySelector(".teenlines");
       jlva.classList.remove("jlva")
   }
 })
+
+
+let contactform = ()=>{
+  if(true){
+      Swal.fire({
+          title: "Contact Page Not Working",
+          text: "Please Contact On Whatsapp And Others Social Media Platforms!",
+          icon: "info"
+        });
+  }
+  }
